@@ -1,0 +1,5 @@
+f=open("filethatyoumade.txt","w+")
+print("what is your name?")
+username=input()
+f.write(username)
+f.close()
